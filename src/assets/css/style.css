@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.avatar--top--bar {
+    width: 40px;
+    height: 40px;
+}
+
+.avatar--left--bar {
+    width: 48px;
+    height: 48px;
+}
+
+.font--family {
+    font-family: 'Inter', sans-serif;
+}
+
+.font--size--16 {
+    font-size: 16px;
+}
+
+.font--size--14 {
+    font-size: 14px;
+}
+
+.font--family--bold {
+    font-weight: bold;
+}
+
+.background--color--white {
+    background-color: white;
+}
+
+.background--color--green {
+    background-color: #78E378;
+}
+
+.background--color--light--grey {
+    background-color: #F5F5F5;
+}
+
+.quantity--messages {
+    width: 18px;
+    height: 18px;
+}
