@@ -1,6 +1,20 @@
+body {
+    border: 0px;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
 .flex {
     display: flex;
 }
+
+.border--red {
+    border: 1px solid red;
+}
+
 /* Flex--directions */
 
 .flex--direction--row {
@@ -48,6 +62,10 @@
 
 .flex--3 {
     flex: 3;
+}
+
+.flex--3-5 {
+    flex: 3.5;
 }
 
 .flex--4 {
