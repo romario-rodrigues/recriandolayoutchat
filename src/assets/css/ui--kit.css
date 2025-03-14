@@ -1,6 +1,7 @@
 body {
     border: 0px;
     margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -12,7 +13,11 @@ body {
 }
 
 .gap--5 {
-    gap: 10;
+    gap: 5px;
+}
+
+.gap--16 {
+    gap: 16px;
 }
 
 .padding--top--5 {
@@ -82,4 +87,16 @@ body {
 
 .flex--5 {
     flex: 5;
+}
+
+.flex--6 {
+    flex: 6;
+}
+
+.flex--7 {
+    flex: 7;
+}
+
+.flex--8 {
+    flex: 8;
 }
