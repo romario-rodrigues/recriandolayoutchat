@@ -151,3 +151,11 @@
     margin-left: 12px;
     margin-top: 5px;
 }
+
+.side--bar {
+    width: 100%;
+    height: 56px;
+    border-bottom: 0.5px solid #D9DCE0;
+    background-color: #FFFFFF;
+
+}
