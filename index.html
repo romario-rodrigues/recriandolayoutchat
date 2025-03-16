@@ -248,7 +248,7 @@
 
 
         <!-- side right -->
-        <div class="flex flex--direction--column flex--3-5">
+        <div class="flex flex--direction--column align--items--center flex--3-5">
             <div class="flex flex--direction--row align--items--center side--bar gap--5">
                 <div class="flex flex--direction--row justify--content--center align--items--center flex--1">
                     <img class="avatar--top--bar" src="./src/assets/images/david--moore.png" alt="">
@@ -267,12 +267,14 @@
 
             </div>
 
-            <div class="flex justify--content--center align--items--end chat--tab">
+            <div class="chat--tab flex flex--direction--column justify--content--end align--items--end">
                 <div
-                    class="flex justify--content--center flex--direction--column align--items--end border--red messages flex--direction--column">
+                    class="gap--16 flex justify--content--center flex--direction--column align--items--end messages flex--direction--column">
+
                     <div class="flex div--today justify--content--center align--items--center">
                         <div class="today font--family">Today</div>
                     </div>
+
                     <div class="flex div--message--1 flex--direction--column">
                         <div class="flex message--1 flex--1 flex--direction--column">
                             OMG 😲 do you remember what you did last night
@@ -287,9 +289,8 @@
 
                             </div>
                         </div>
-
-
                     </div>
+
                     <div
                         class="justify--content--center align--items--center flex--direction--column flex div--message--2">
                         <div class=" flex message--2 font--family">
@@ -302,8 +303,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border--red">3</div>
-                    <div class="border--red">4</div>
+
+                    <div class="flex flex--direction--column align--items--end div--message--3">
+                        <div class="check--icon font--family flex flex--1 message--3">
+                            i don't remember anything 😄
+                        </div>
+
+                        <div class=" sent--3 font--family align--items--end justify--content--end flex">
+                            <div class="flex gap--5">
+                                <div>18:16</div>
+                                <img src="./src/assets/icons/check_icon_white.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex border--white input--bar align--items--center">
+                        <div class="emoticons flex flex--1">
+                            <img src="./src/assets/icons/emoticons.svg" alt="">
+                        </div>
+                        <div class="flex flex--8 font--family ">
+                            Message
+                        </div>
+                        <div class="flex emoticons--send flex--1">
+                            <img src="./src/assets/icons/send.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
 
