@@ -2,10 +2,12 @@ body {
     border: 0px;
     margin: 0;
     padding: 0;
+    background-image: url("/src/assets/images/background.png");
 }
 
 .container {
     height: 100vh;
+    
 }
 
 .flex {
@@ -16,12 +18,24 @@ body {
     gap: 5px;
 }
 
+.gap--10 {
+    gap: 10px;
+}
+
 .gap--16 {
     gap: 16px;
 }
 
 .padding--top--5 {
     padding-top: 5px;
+}
+
+.padding--right--10 {
+    padding-right: 10px;
+}
+
+.padding--right--15 {
+    padding-right: 15px;
 }
 
 .border--red {
@@ -49,6 +63,14 @@ body {
 
 .justify--content--end {
     justify-content: flex-end;
+}
+
+.justify--content--space--between {
+    justify-content: space-between;
+}
+
+.justify--content--space--around {
+    justify-content: space-around;
 }
 
 /* Align--items */
